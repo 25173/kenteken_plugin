@@ -1,0 +1,96 @@
+.gratisKentekenForm{
+    background: #ffffff;
+    margin: 2em auto;
+    width: 80%;
+
+    height: auto;
+    padding: 1.6em;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 1px 3px 10px 0 rgba(0,0,0,0.2);
+
+}
+
+.kentekenForm{
+    text-align: center;
+    align-content: center;
+}
+
+.kentekenForm label{
+    font-size: 0.5em;
+    margin: 0;
+    color: #4c4c4d;
+    opacity: 0.5;
+    float: left;
+}
+
+.kentekenForm #kenteken{
+    width: 100%;
+    border: none;
+    background: yellow;
+    border-left: #1076d0 1.5em solid;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 8px 6px -3px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 1px 3px 10px 0 rgba(0,0,0,0.2);
+    font-size: 140%;
+}
+
+.kentekenForm #submit_kenteken{
+    background: #389141;
+    color: white;
+    padding: 0.4em 0.7em;
+    /*margin-top: 1em;*/
+    margin: 1em;
+    border: none;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 1px 3px 10px 0 rgba(0,0,0,0.2);
+}
+
+.kentekenForm #submit_kenteken:hover{
+    background: #cd691d;
+}
+
+.kentekenchecks ul {
+    list-style: none; /* Remove HTML bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.kentekenchecks ul li {
+    padding-left: 16px;
+}
+
+.kentekenchecks ul li::before {
+    content: "✓"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #0ac11c; /* Or a color you prefer */
+}
+
+
+div .gratisKentekenTitel{
+    color: #ca1e2e;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.28);
+    margin-bottom: 1em;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+table, th, tr , td {
+    border: black 1px solid;
+
+    padding: 0.5em;
+}
+
+th, td{
+    padding: 9px;
+}
+
+.licensePlateResult{
+    margin: 2em;
+}
